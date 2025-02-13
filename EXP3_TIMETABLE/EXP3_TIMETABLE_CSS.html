@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #eef2f3, #dcecf5);
+            margin: 20px;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: white;
+            background: #0073e6;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background: #004d99;
+            color: white;
+            font-size: 16px;
+        }
+        td {
+            color: #333;
+            font-size: 14px;
+        }
+        .highlight {
+            background: #ffcc00;
+            font-weight: bold;
+            color: black;
+        }
+        .lab-session {
+            background: #ffebcd;
+            font-weight: bold;
+            color: #333;
+        }
+        .open-elective {
+            background: #ff7f50;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h4>Jaineel Maniyar 22BIT163</h4>
+
+    <h2>Class Timetable - Semester 6 (B.Tech ICT)</h2>
+    
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>09:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-13:00</th>
+            <th>13:00-14:00</th>
+            <th>14:00-15:00</th>
+            <th>15:00-16:00</th>
+            <th>16:00-17:00</th>
+            <th>17:00-18:00</th>
+            <th>18:00-19:00</th>
+        </tr>
+
+        <!-- Monday -->
+        <tr>
+            <td>Monday</td>
+            <td>H7H8H9 (20IC304T) F-504, AMK-L</td>
+            <td>H7H8H9 (20IC305T) F-504, PST-L</td>
+            <td colspan="2" class="lab-session">H7H8H9 (20IC405P) F-204, RIVY-P</td>
+            <td class="highlight">LUNCH BREAK</td>
+            <td colspan="2" class="lab-session">H9H8H7 (20IC306P) E112-113, DESA-P</td>
+            <td colspan="2" class="open-elective">Open Elective</td>
+            <td></td>
+        </tr>
+
+        <!-- Tuesday -->
+        <tr>
+            <td>Tuesday</td>
+            <td>H7H8H9 (20IC405T) E202, RABH-L</td>
+            <td>H7H8H9 (20IC306T) E202, DESA-L</td>
+            <td>H7H8H9 (20IC305T) F503, PST-L</td>
+            <td>H7H8H9 (22CDC006) F503, CDCT-L</td>
+            <td class="highlight">LUNCH BREAK</td>
+            <td>H7H8H9 (23IC301T) F503, SHIV-L</td>
+            <td>H7H8H9 (20IC316T) F504, MSK-L</td>
+            <td  class="open-elective">Open Elective</td>
+            <td>H7H8H9 (22CDC006) C201/1, CDCT-L</td>
+        </tr>
+
+        <!-- Wednesday -->
+        <tr>
+            <td>Wednesday</td>
+            <td>H7H8H9 (20IC305T) F504, PST-L</td>
+            <td>H7H8H9 (20IC316T) F504, MSK-L</td>
+            <td>H7H8H9 (20IC306T) E201, DESA-L</td>
+            <td>H7H8H9 (20IC304T) F503, AMK-L</td>
+            <td class="highlight">LUNCH BREAK</td>
+            <td colspan="2" class="lab-session">H9H8 (23IC301P) E214, KAGA-P</td>
+            <td>H7H8H9 (20IC306T) E202, DESA-L</td>
+            <td>H7H8H9 (20IF201T) OE Room, ICTV2-L</td>
+            <td>H7H8H9 (20IC405T) E202, RABH-L</td>
+        </tr>
+
+        <!-- Thursday -->
+        <tr>
+            <td>Thursday</td>
+            <td colspan="2" class="lab-session">H7H8H9 (20HS301P) F-503, CHSH-P</td>
+            <td colspan="2" class="lab-session">H9 (20IC304P) F-204, AMK-P</td>
+            <td class="highlight">LUNCH BREAK</td>
+            <td colspan="2" class="lab-session">H9H8H7 (20IC305P) E112-113, SOPA-P</td>
+            <td>H7 (20IC405P) OE Room, ICTV2-L</td>
+            <td>H7H8H9 (20IC304T) E201, AMK-L</td>
+            <td></td>
+        </tr>
+
+        <!-- Friday -->
+        <tr>
+            <td>Friday</td>
+            <td>H7H8H9 (22CDC006) F503, CDCT-L</td>
+            <td>H7H8H9 (23IC301T) E202, SHIV-L</td>
+            <td colspan="2" class="lab-session">H9H8H7 (20IC316P) E212, MORO-P</td>
+            <td class="highlight">LUNCH BREAK</td>
+            <td colspan="2" class="lab-session">H7H8H9 (20IF201P) OE Room, ICTV1-P</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+</body>
+<h2>Faculty Table</h2>
+
+<table>
+    <tr>
+        <th>Code</th>
+        <th>Faculty Name</th>
+        <th>Course Code</th>
+        <th>Subject</th>
+    </tr>
+    <tr>
+        <td>ABJO</td>
+        <td>Abhishekh Joshi</td>
+        <td>20HS301P</td>
+        <td>Communication Skills III</td>
+    </tr>
+    <tr>
+        <td>AMK</td>
+        <td>Amit M Kumar</td>
+        <td>20IC304P</td>
+        <td>Embedded Systems Lab</td>
+    </tr>
+    <tr>
+        <td>ANAN</td>
+        <td>Anand Singh</td>
+        <td>20IC304T</td>
+        <td>Embedded Systems</td>
+    </tr>
+    <tr>
+        <td>AYMA</td>
+        <td>Ayushi Mathur</td>
+        <td>20IC305P</td>
+        <td>AI Systems Lab</td>
+    </tr>
+    <tr>
+        <td>CDCT</td>
+        <td>CD Cell Trainer</td>
+        <td>20IC305T</td>
+        <td>AI Systems</td>
+    </tr>
+    <tr>
+        <td>CHSH</td>
+        <td>Charu Sharma</td>
+        <td>20IC306P</td>
+        <td>Computer Communication and Networking Lab</td>
+    </tr>
+    <tr>
+        <td>DESA</td>
+        <td>Deepak Sahu</td>
+        <td>20IC306T</td>
+        <td>Computer Communication and Networking</td>
+    </tr>
+    <tr>
+        <td>GUTH</td>
+        <td>Gunjan Thakur</td>
+        <td>20IC313P</td>
+        <td>Machine Learning Lab</td>
+    </tr>
+    <tr>
+        <td>ICTV1</td>
+        <td>ICT Visiting Faculty 1</td>
+        <td>20IC313T</td>
+        <td>Machine Learning</td>
+    </tr>
+    <tr>
+        <td>ICTV2</td>
+        <td>ICT Visiting Faculty 2</td>
+        <td>20IC316P</td>
+        <td>Cloud Architecture and Services Lab</td>
+    </tr>
+    <tr>
+        <td>JRS</td>
+        <td>Jigar Shah</td>
+        <td>20IC316T</td>
+        <td>Cloud Architecture and Services</td>
+    </tr>
+    <tr>
+        <td>KAGA</td>
+        <td>Kamal Garg</td>
+        <td>20IC405P</td>
+        <td>Deep and Reinforcement Learning Lab</td>
+    </tr>
+    <tr>
+        <td>MORO</td>
+        <td>Mohendra Roy (ICT)</td>
+        <td>20IC405T</td>
+        <td>Deep and Reinforcement Learning</td>
+    </tr>
+    <tr>
+        <td>MSK</td>
+        <td>Manish Kumar</td>
+        <td>20IF201P</td>
+        <td>Industry 4.0 Lab</td>
+    </tr>
+    <tr>
+        <td>PRAB</td>
+        <td>Pradip Barik</td>
+        <td>20IF201T</td>
+        <td>Industry 4.0</td>
+    </tr>
+    <tr>
+        <td>PST</td>
+        <td>Parth Thakar</td>
+        <td>22CDC006</td>
+        <td>CDC Training</td>
+    </tr>
+    <tr>
+        <td>PWS</td>
+        <td>Pawan Sharma</td>
+        <td>23IC301P</td>
+        <td>WEB TECHNOLOGY LAB</td>
+    </tr>
+    <tr>
+        <td>RABH</td>
+        <td>Rashmi Bhattad</td>
+        <td>23IC301T</td>
+        <td>Web Technology</td>
+    </tr>
+</table>
+
+</body>
+
+</html>
